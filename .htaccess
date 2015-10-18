@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule .* - [L]
+RewriteRule ^contacts$ ./index.php?page=contacts
+RewriteRule ^signin$ ./index.php?page=signin
+RewriteRule ^signup$ ./index.php?page=signup
+RewriteRule ^signout$ ./index.php?page=signout
+RewriteRule ^profile$ ./index.php?page=profile
+RewriteRule ^teachers$ ./index.php?page=teachers
+RewriteRule ^rate$ ./index.php?page=rate

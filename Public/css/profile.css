@@ -1,0 +1,29 @@
+#avatar{position:relative;
+		width:28%;
+		height:25%;
+		margin-left:40px;
+		float:left;
+		display:block;
+		}
+#no_avatar{width:80%;
+			height:80%;
+			display:block;
+			margin:0 auto;}
+#upload_img{position:relative;
+			height:45px;
+			font-size:12px;
+			min-width:100% !important;}
+.width_upload{width:100%;
+			font-size:13px;
+			}
+#info{position:relative;
+	display:block;
+	float:right;
+	width:50%;}
+
+#clear{
+	clear: both;
+}
+#update{height:45px;
+		min-width:140px !important;
+		font-size:13px;}

@@ -1,0 +1,19 @@
+#teachers{position:relative;
+		margin-left:35px;
+		width:40%;
+		border-right:1px solid grey;
+		text-align:left;
+		float:left;
+		 }
+#teacher{
+	position:relative;
+	height:150px;
+	width:40%;
+	margin-left: 10px;
+	text-align:left;
+	float:left;
+}
+
+.hidden{
+	display: none !important;
+}
